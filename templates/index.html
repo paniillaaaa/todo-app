@@ -2,37 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>CI/CD Demo - Flask & Vercel</title>
-    <style>
-        body {
-            background-color: #f9f9f9;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .container {
-            background-color: white;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-            text-align: center;
-        }
-        h1 {
-            color: #6e00ff;
-        }
-        p {
-            font-size: 18px;
-            color: #333;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CI/CD Demo | Flask + Vercel</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <div class="container">
-        <h1>🚀 CI/CD Demo: Flask + Vercel</h1>
-        <p>Selamat datang! Aplikasi ini secara otomatis ter-deploy setiap kali kode diubah di GitHub.</p>
-    </div>
+    <header>
+        <div class="container">
+            <h1>🚀 CI/CD Deployment Demo</h1>
+            <p>Build • Test • Deploy • Repeat</p>
+        </div>
+    </header>
+
+    <section class="content">
+        <div class="container">
+            <h2>Welcome to the CI/CD Demo Website</h2>
+            <p>This Flask application is automatically deployed using GitHub Actions and Vercel.</p>
+            <p>Push your code to GitHub and watch it go live!</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Created with ❤️ by panilllaaaa | Powered by Flask + Vercel</p>
+        </div>
+    </footer>
 </body>
 </html>

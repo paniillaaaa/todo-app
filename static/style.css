@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #fff0f5, #fce4ec);
+  color: #333;
+}
+
+header {
+  background-color: #f8bbd0;
+  color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin: 8px 0 0 0;
+  color: #fffafc;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  background-color: #ffffff;
+  padding: 60px 30px;
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 16px rgba(248, 187, 208, 0.3);
+  animation: fadeIn 0.8s ease;
+}
+
+.content h2 {
+  font-size: 2rem;
+  color: #c2185b;
+  margin-bottom: 20px;
+}
+
+.content p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #ffe3ee;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
